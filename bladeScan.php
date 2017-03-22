@@ -29,7 +29,7 @@ for ($i = 0; $i <= 7; $i++) {
 
 echo '
 <html>
-<head></head>
+<head><title>SCAN - '.$url.'</title></head>
 <body>
 <center><h1>SNMP scan of '.$url.'</h1></center>
 <table align="center" cellpadding="5" border="2" width="800">

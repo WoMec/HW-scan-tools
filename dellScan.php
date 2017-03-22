@@ -34,7 +34,7 @@ foreach ($hddSize as $i => $val) $hddSize[$i] = intval(substr($val,9));
 
 echo '
 <html>
-<head></head>
+<head><title>SCAN - '.$url.'</title></head>
 <body>
 <center><h1>SNMP scan of '.$url.'</h1></center>
 <table align="center" cellpadding="5" border="2">
